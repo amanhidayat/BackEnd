@@ -1,5 +1,5 @@
-const userController = require('./userController')
+const expenseController = require('./expenseController')
 
 module.exports = {
-    userController
+    expenseController
 }

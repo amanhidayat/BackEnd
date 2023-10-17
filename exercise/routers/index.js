@@ -1,5 +1,6 @@
-const userRouter = require("./userRouter")
+const expenseRouter = require("./expenseRouter")
 
 module.exports = {
-    userRouter
+   expenseRouter
 }
+
