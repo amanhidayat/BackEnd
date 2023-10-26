@@ -3,7 +3,6 @@ const PORT = 2000
 const db = require('./models')
 
 
-
 const app = express()
 app.use(express.json())
 
@@ -11,10 +10,10 @@ app.get(`/api`, (req, res) => {
     res.send("This is my API")
 })
 
-const { userRouter, tweetRouter } = require('./routers')
+// const { userRouter, tweetRouter } = require('./routers')
 
-app.use('/users', userRouter)
-app.use('/tweets', tweetRouter)
+// app.use('/users', userRouter)
+// app.use('/tweets', tweetRouter)
 
 app.listen(PORT, () => {
    // db.sequelize.sync({ alter: true })
